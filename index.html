@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@500;700;900&family=Open+Sans:wght@400;700&family=Slabo+27px&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>CapyBaras</title>
+</head>
+<body>
+
+    <nav class="navbar fixed-top header navbar-expand-lg navbar-light" width>
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="https://cdn-icons-png.flaticon.com/512/311/311523.png" width="80" length="80" alt="CapyBaras">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="que.html">Qué es esto?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="proposito.html">Propósito</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="nosotros.html">Nosotros</a>
+                    </li>
+                </ul>
+                <div class="actions">
+                    <form class="d-flex align-items-center">
+                        <a name="Log In" id="Log In" class="btn btn-primary" href="login.html" role="button">Log In</a>
+                        <a name="Register" id="Register" class="btn btn-primary" href="register.html" role="button">Registrarse</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main">
+        <h1>CapyBaras</h1>
+
+        <h4>Capibaras, Carpinchos, Chigüiros... En fin, muchas formas hay de llamarlos, pero una cosa es cierta, son animales bastante hermosos y curiosos</h4>
+        <form class="signup-form">
+            <input type="email" placeholder="Pon tu E-mail"/>
+           <a name="Ven" id="Ven" class="btn btn-primary" href="register.html" role="button">Vamos!</a>
+        </form>
+
+        <p>Conoce <strong>nuestra iniciativa</strong> </p>
+        <p><strong>Totalmente gratis!</strong></p>
+        
+
+        <img src="https://images.wallpapersden.com/image/download/capybara-muzzle-nose_aWtmbZSZmpqtpaSklGZsbGetZmZtZg.jpg" alt="Capy" 
+        width="750" length="750"/>
+    </main>
+
+    <section class="promo">
+        <article class="explanatory-video">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/tQm7gH8lWyA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </article>
+
+        <article class="publish">
+            <h3>
+               Somos una iniciativa contra el cambio climático y la destrucción de hábitats
+            </h3>
+
+            <p class="texto-publish">
+                Este es tu momento para tomar conciencia!
+            </p>
+
+            <form class="signup-form">
+                <p class="texto-gris-publish">
+                    Empieza a opinar ya!
+                </p>
+              </article>
+
+    </section>
+
+    <section class="card-container">
+        <article class="col-12 col-md-8 comments">
+            <h1>De qué va el rollo</h1>
+            <p>
+              CapyBaras es una iniciativa de concientización ambiental hecha por mí, un menor mexicano, que se interesa mucho no sólo por los Capibaras, sino por toda la flora y fauna que existe en el planeta entero, la cual se encuentra y se encontrará en grave peligro si aún no lo está.
+              Hay muchos factores que influyen al daño que se le hace a los habitats de estos animalitos y plantas, como los desechos industriales, los desechos electrónicos, la construcción de viviendas, etc.
+              Lo que queremos hacer aquí, es contarte de cómo reducir tu huella ambiental y qué acciones deberías tomar para proteger a nuestros amigos.
+              Además, podrás hacer tu propio blog y comentar! Qué esperas?!
+            </p>
+            <div class="col-12 d-flex flex-column justify-content-start">
+              <img src="https://cdn-icons-png.flaticon.com/512/311/311523.png" alt="logos" width="200" length="200"/>
+            </div>
+            <a name="qn" id="qn" class="btn btn-primary" href="quien.html" role="button">Quién usaría CapyBaras?</a>
+        </article>
+
+        
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+
+      <section class="faq">
+        <div class="accordion" id="accordionExample">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h2 class="mb-0">
+                <button
+                  class="btn btn-link"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                <!-- begin wwww.htmlcommentbox.com -->
+ <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Comment Box</a> is loading comments...</div>
+ <link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
+ <script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="https://www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%240h59dvMTB.znnPnlhedF4."+"&opts=16798&num=10&ts=1657141289022");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ </script>
+<!-- end www.htmlcommentbox.com -->
+                <h3></h3><!-- Start BawkBox Code--><script data-sil-id="62c49d70e431f8001edd386e">var loadWidget = function() { var d = document, w = window, l = window.location,p = l.protocol == "file:" ? "http://" : "//"; if (!w.WS) w.WS = {}; c = w.WS; var m=function(t, o){ var e = d.getElementsByTagName("script"); e=e[e.length-1]; var n = d.createElement(t); if (t=="script") {n.async=true;} for (k in o) n[k] = o[k]; e.parentNode.insertBefore(n, e)}; m("script", { src: p + "bawkbox.com/widget/feedback/62c49d70e431f8001edd386e?page=" +encodeURIComponent(l+''), type: 'text/javascript' }); c.load_net = m; }; if(window.Squarespace){ document.addEventListener('DOMContentLoaded', loadWidget); setTimeOut(function(){ document.addEventListener('DOMContentLoaded', loadWidget); }, 3000) } else { loadWidget() } </script><div class="sil-widget-feedback sil-widget" id="sil-widget-62c49d70e431f8001edd386e"><a href="//bawkbox.com/install/feedback"></a></div><!-- End BawkBox Code-->
+                </html>
+                 
